@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+:root
+{
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #c0c0c0;
+    --cor-botao: #167bf7;
+    --cor-fundo: #00030c;
+    --font-primaria: "Inter", sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-primaria);
+     
+}
+
+.grupo1
+{
+    background-image: url(/img/Background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 55% 55%;  
+    align-items: center; 
+    text-align: center;
+
+}
+
+.oferta__grupo1__alinhamento
+{
+    margin: 0 6rem;
+
+
+
+}
+
+.oferta__grupo1__titulo
+{
+    font-size: 28px;
+    font-weight: 700;
+
+
+}
+
+.oferta__grupo1__imagem
+{
+    margin: 1em 0 2em 0;
+
+
+}
+
+
+.oferta__grupo1__botao1
+{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    background-color: var(--cor-botao);
+    border-radius: 0.18rem;
+    padding: 1rem;
+    display: block;
+    margin-bottom: 1rem;
+    
+
+
+
+}
+
+.oferta__grupo1__botao2
+{
+    
+    text-decoration: none;
+    color: var(--cor-primaria);
+    background-color: transparent;
+    border-radius: 0.18rem;
+    padding: 1rem;
+    display: block;
+    border: 0.12rem solid var(--cor-primaria);
+    margin-bottom: 1rem;
+    
+}
+
+.oferta__grupo1__texto
+{
+    font-size: 0.75rem;
+    color: var(--cor-secundaria);
+}
+
+.grupo2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6rem;
+    gap: 18.75rem;
+    height: 100vh;
+    
+
+}
+.grupo2__imagem
+{
+    width: 31rem;
+    height: 35rem;
+
+
+}
+
+.grupo2__blocotexto
+{
+    width: 36.75rem;
+    height: 9rem;
+
+
+}
+
+.grupo2__titulo
+{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.grupo2__texto
+{
+    font-size: 1rem;
+    color: var(--cor-secundaria);
+
+
+}
+
+.grupo3
+{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-left: 7.5rem;
+    gap: 15rem;
+    height: 100vh;
+
+
+}
+
+
+.grupo3__texto
+{
+        
+    margin-bottom: 1rem;
+    width: 36.75rem;
+    color: var(--cor-secundaria);
+    padding-bottom: 16px;
+
+
+
+}
+
+.grupo3__botao
+{
+    background-color: var(--cor-botao);
+    width: 162.68px;
+    height: 56px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+
+
+
+}
+
+.grupo3__img
+{
+    margin-right: 10.375rem;
+    
+
+
+
+}
+
+.grupo4
+{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 15rem;
+    text-align: left;
+    height: 100vh;
+}
+
+.grupo4__img
+{
+    width: 34.1875rem;
+    height: 20.25rem;
+    
+
+
+
+}
+
+.grupo4__blocotexto
+{
+    width: 36.75rem;
+    height: 9rem;
+
+
+}
+
+
+.grupo4__titulo
+{
+
+font-size: 3rem;
+
+}
+
+.grupo4__texto
+{
+    font-size: 1rem;
+    color: var(--cor-secundaria);
+    
+
+}
+
+.grupo5
+{
+
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    
+    
+
+}
+
+.grupo5__titulo
+{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--cor-primaria);
+    margin-bottom: 5rem;
+    
+}
+
+.grupo5__alinhamento
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 6.25rem;
+}
+
+.grupo5__texto
+{
+  font-size: 2rem;  
+  color: var(--cor-primaria);
+}
+
+
+
+.rodape__total
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.rodape__ancora
+{
+    
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.rodape__ancora__texto
+{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    
+
+
+}
+
+.rodape__ancora__texto:hover
+{
+    color: var(--cor-botao);
+
+
+}
+
+
+.rodape__texto
+{
+    color: var(--cor-secundaria);
+    text-align: center; 
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 0.875rem;
+
+
+}
+
+
